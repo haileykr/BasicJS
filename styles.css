@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+input {
+    border-radius:5px;
+    border: 1px solid lightgray;
+    color: lightgray;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.form, .greetings {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity : 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    animation: fadeIn 0.8s linear;
+}
+
+.jsTodoList li button {
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    padding: 2px;
+    border: 1px solid lightgray;
+    background-color: white;
+    color: lightgray;
+}
