@@ -60,3 +60,26 @@ h1 {
     background-color: white;
     color: lightgray;
 }
+
+#buttonReset {
+    position: absolute;
+    bottom: 1rem;
+    padding: 0;
+}
+
+#buttonReset button {
+    border: 1px solid lightgray;
+    text-transform: uppercase;
+
+    font-size: 1rem;
+    font-weight: 600;
+    color: lightgray;
+    background: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#buttonReset button:hover {
+    cursor: pointer;
+    background-color: white;
+}
